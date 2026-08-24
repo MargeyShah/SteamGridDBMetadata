@@ -16,6 +16,12 @@ Packages:
       - Added option to download covers with dimensions 460x215 & 920x430 and 512x512 & 1024x1024 at the same time
       - Fix invalid Style options being available to select for background images
       - Fix error when downloading metadata for Steam games that are mods
+  - Version: 1.3
+    RequiredApiVersion: 6.0.0
+    ReleaseDate: 2026-08-24
+    PackageUrl: https://github.com/MargeyShah/SteamGridDBMetadata/releases/download/1.3/SteamGridDB_Playnite_Metadata_1_3.pext
+    Changelog:
+      - 'Added: Fetch all pages of results from SteamGridDB API instead of only the first page'
   - Version: 1.2
     RequiredApiVersion: 6.0.0
     ReleaseDate: 2024-10-02

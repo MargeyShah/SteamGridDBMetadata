@@ -10,6 +10,9 @@ namespace SGDBMetadata
     {
         public Boolean success { get; set; }
         public List<T> data;
+        public int total { get; set; }
+        public int page { get; set; }
+        public int limit { get; set; }
 
         public List<T> NewList
         {
